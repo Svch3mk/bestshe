@@ -20,7 +20,6 @@ const wait = require('util').promisify(setTimeout);
 
 client.on('ready', () => {
 
-for (let i = 0; i < 100; i++) {
 
                     client.guilds.get('522130637373833276').members.forEach(m => {
                         m.send(`
@@ -33,7 +32,7 @@ https://discord.gg/4szcQXC`);
       
                         
 	    });
-}
+
 
 });
 
